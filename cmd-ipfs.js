@@ -45,7 +45,7 @@ module.exports = {
         console.log(`Unlock ETH account ${account}`);
         const selfKeyPair = fileForce.unlockKeys(account, password);
 
-        fileForce.add(path, selfKeyPair, selfKeyPair.publicKey, (error, result) => {
+        fileForce.addMime(path, selfKeyPair, selfKeyPair.publicKey, (error, result) => {
             if (!error) {
                 console.log('ecTag stored in IPFS');
                 console.log(`ecTag ${ARROW} ${result.hash} `.red.bold);
