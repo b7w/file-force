@@ -30,7 +30,7 @@
     "readline-sync": "^1.4.5",
     "streamifier": "^0.1.1",
     "tmp": "0.0.29",
-    "web3": "0.18.2",
+    "web3": "0.19",
     "yaml-config": "^0.3.0"
   }
 }
